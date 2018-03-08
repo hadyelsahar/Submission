@@ -1,8 +1,12 @@
 # ArticlePlaceholder with Text
 
+## Baselines
 The baselines that were used are located in the `baselines` folder. Their respective results along with the results from our model are in the `results` folder.
+We work with two baselines of different nature: Machine Translation and Template Retrieval.
+The Machine Translation baseline uses the Node.js library https://www.npmjs.com/package/google-translate-api, which helps working around some of the limitations of Google Translate for third-party users. 
+Both baselines are easily reproducible, all needed code is contained in the respective folders.
 
-
+## Community study
 The code contained in the `crowdevaluation` folder was made in order to prepare and evaluate the community evaluation. The languages are abbreviated with their respective language codes (ar for Arabic and eo for Esperanto).
 
 - `Preparation` contains files that were used to create the surveys.
